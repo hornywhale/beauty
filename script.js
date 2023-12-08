@@ -1,3 +1,17 @@
+var offerElements = document.querySelectorAll('.offer');
+
+// Function to handle click events
+function handleOfferClick(event) {
+    var offerId = event.currentTarget.id.replace('offer', '');
+    window.location.href = "pricelist.html";
+    // You can add your logic or perform actions here
+}
+
+// Add click event listener to each offer element
+offerElements.forEach(function(offerElement) {
+    offerElement.addEventListener('click', handleOfferClick);
+});
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -26,3 +40,5 @@ function showSlides(n) {
     slides[slideIndex-1].style.display = "flex";
     dots[slideIndex-1].className += " active";
 }
+
+
