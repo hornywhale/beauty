@@ -293,16 +293,37 @@ footer {
     background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d432c894294119.5e824b610faa1.png");
 }
 
-.offer:hover {
-    -webkit-transform: scale(1.1,1.1);
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-}
-
 .offer-text {
     font-size: 2vw;
     color: white;
+}
+
+.offer:hover {
+    animation-name: myanimation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.offer {
+    animation-name: reverse;
+    animation-duration: 0.5s;
+}
+
+@keyframes myanimation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes reverse {
+    from {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
 }
 
