@@ -255,6 +255,46 @@ footer {
     align-items: center;
 }
 
+.offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.offers-element {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #ccc4c2;
+    border-radius: 15px;
+    padding: 8%;
+    width: 75vw;
+    height: 50vw;
+    margin: 0% 8% 8% 8%;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d432c894294119.5e824b610faa1.png");
+}
+
+.offer:hover {
+    -webkit-transform: scale(1.05,1.05);
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.offer-text {
+    font-size: 7vw;
+    color: white;
+}
+
 
 
 
