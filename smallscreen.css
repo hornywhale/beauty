@@ -358,6 +358,20 @@ iframe {
     margin-top: 10%;
 }
 
+.pricelist {
+    margin: 5% 10% 5% 10%;
+}
+
+.pricelist-element {
+    font-size: 5vw;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #785237 solid;
+}
+
+.price {
+    font-weight: 400;
+}
 
 
 
