@@ -113,10 +113,6 @@ h1 {
     font-weight: 50;
 }
 
-img {
-    max-width: 40%;
-}
-
 .glass-bg {
     display: flex;
     justify-content: center;
@@ -271,7 +267,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5%;
+    margin: 0 5% 5% 5%;
 }
 
 .offers-element {

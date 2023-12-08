@@ -1,0 +1,42 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.demos {
+    text-align: center;
+    margin: 3% 0 5% 0;
+}
+
+.demo-image {
+    cursor: url("http://tholman.com/intense-images/img/plus_cursor.png") 25 25, auto;
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+}
+.demo-image.first {
+    background-image: url("https://thumb.tildacdn.com/tild3462-3432-4735-b535-396634316430/-/format/webp/BC1rtHGBHOQ.jpg");
+}
+
+.demo-image.second {
+    background-position: 50% 10%;
+    background-image: url("https://thumb.tildacdn.com/tild3135-6431-4062-b638-653239666363/-/format/webp/4.jpg");
+}
+
+.demo-image.third {
+    background-position: 50% 10%;
+    background-image: url("https://thumb.tildacdn.com/tild6561-6337-4331-a339-316462316235/-/format/webp/B2BC4JgqAOU.jpg");
+}
+
+.demo-image.fourth {
+    background-position: 50% 10%;
+    background-image: url("https://thumb.tildacdn.com/tild3863-3166-4833-b535-656363303266/-/format/webp/EnLJ3cO5uyU.jpg");
+}
+
+
