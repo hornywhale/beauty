@@ -2,8 +2,8 @@ var offerElements = document.querySelectorAll('.offer');
 
 // Function to handle click events
 function handleOfferClick(event) {
-    var offerId = event.currentTarget.id.replace('offer', '');
-    window.location.href = "pricelist.html";
+    var offerId = event.currentTarget.id;
+    window.location.href = `${offerId}.html`;
     // You can add your logic or perform actions here
 }
 

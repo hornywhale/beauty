@@ -281,10 +281,50 @@ footer {
     background-color: #ccc4c2;
     border-radius: 15px;
     padding: 8%;
-    width: 75vw;
+    width: 73vw;
     height: 50vw;
     margin: 0% 8% 8% 8%;
-    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d432c894294119.5e824b610faa1.png");
+    background-size: cover;
+}
+
+#offers-cosmetology {
+    background-image: url("images/cosmetology.png");
+}
+
+#offers-massage {
+    background-image: url("images/massage.png");
+}
+
+#pricelist-cleanup {
+    background-image: url("images/cleanup.png");
+}
+
+#pricelist-peeling {
+    background-image: url("images/peeling.png");
+}
+
+#pricelist-bio {
+    background-image: url("images/bio.png");
+}
+
+#pricelist-mezo {
+    background-image: url("images/mezo.png");
+}
+
+#pricelist-prp {
+    background-image: url("images/prp.png");
+}
+
+#pricelist-body {
+    background-image: url("images/body.png");
+}
+
+#pricelist-face {
+    background-image: url("images/face.png");
+}
+
+#pricelist-machined {
+    background-image: url("images/machined.png");
 }
 
 .offer:hover {
@@ -300,7 +340,7 @@ footer {
 
 .offer-text {
     font-size: 7vw;
-    color: white;
+    color: #856a4f;
 }
 
 
