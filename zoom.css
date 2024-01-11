@@ -21,17 +21,17 @@
     margin-bottom: 16px;
 }
 .demo-image.first {
-    background-image: url("https://thumb.tildacdn.com/tild3462-3432-4735-b535-396634316430/-/format/webp/BC1rtHGBHOQ.jpg");
+    background-image: url("images/promo1.png");
 }
 
 .demo-image.second {
     background-position: 50% 10%;
-    background-image: url("https://thumb.tildacdn.com/tild3135-6431-4062-b638-653239666363/-/format/webp/4.jpg");
+    background-image: url("images/promo2.png");
 }
 
 .demo-image.third {
     background-position: 50% 10%;
-    background-image: url("https://thumb.tildacdn.com/tild6561-6337-4331-a339-316462316235/-/format/webp/B2BC4JgqAOU.jpg");
+    background-image: url("images/promo3.png");
 }
 
 .demo-image.fourth {
