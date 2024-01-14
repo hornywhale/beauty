@@ -118,7 +118,8 @@ h1 {
     justify-content: center;
     align-items: center;
     height: 50vw;
-    background-image: url("https://static.tildacdn.com/tild3635-6363-4636-b764-643236336531/_5_.png");
+    background-image: url("images/milfs2.png");
+    background-size: cover;
 }
 
 
@@ -405,4 +406,16 @@ iframe {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px #785237 solid;
+}
+
+.book-last {
+    width: 100%;
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/spa.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
 }
