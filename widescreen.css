@@ -19,13 +19,26 @@
     white-space: nowrap;
 }
 
-header {
+.header-container {
     display: flex;
     align-items: center;
     margin: 0% 3% 0% 3%;
-    border-bottom: 2px #785237 solid;
     font-size: 1.5vw;
 }
+
+header {
+    border-bottom: 2px #785237 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-copyright {
+    margin: -1% 0% 2% 2%;
+    font-size: 1.5vw;
+}
+
 
 body {
     padding: 0;
