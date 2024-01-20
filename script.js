@@ -41,4 +41,14 @@ function showSlides(n) {
     dots[slideIndex-1].className += " active";
 }
 
+const bookButtons = document.querySelectorAll(".book");
+
+// Loop through each button and add an event listener
+bookButtons.forEach(button => {
+ button.addEventListener("click", () => {
+   // Redirect to WhatsApp when a button is clicked
+   window.location.href = "https://wa.me/+79182251445";
+ });
+});
+
 
