@@ -58,6 +58,11 @@ body {
     color: #ebebeb;
 }
 
+.book:hover {
+    color: #ebebeb;
+    background-color: #d2b6a0;
+}
+
 a {
     color: #856a4f;
     text-decoration: none; !important
