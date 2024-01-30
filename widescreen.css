@@ -412,7 +412,7 @@ footer {
 }
 
 .contact-text-element:hover {
-    color: black;
+    color: #856a4f !important;
 }
 
 .contact-social:hover {
