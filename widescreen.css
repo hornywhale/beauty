@@ -407,6 +407,10 @@ footer {
     color: black;
 }
 
+.contact-text-element:visited {
+    color: black !important;
+}
+
 .contact-text-element:hover {
     color: black;
 }

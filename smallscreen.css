@@ -405,6 +405,10 @@ footer {
     color: black;
 }
 
+.contact-text-element:visited {
+    color: black !important;
+}
+
 .contact-social:hover {
     color: #856a4f;
 }
