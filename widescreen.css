@@ -412,11 +412,11 @@ footer {
 }
 
 .contact-text-element:hover {
-    color: #856a4f !important;
+    color: black;
 }
 
 .contact-social:hover {
-    color: #856a4f;
+    color: #856a4f !important;
 }
 
 iframe {

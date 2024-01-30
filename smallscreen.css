@@ -406,11 +406,11 @@ footer {
 }
 
 .contact-text-element:visited {
-    color: black !important;
+    color: black;
 }
 
 .contact-social:hover {
-    color: #856a4f;
+    color: #856a4f !important;
 }
 
 iframe {
