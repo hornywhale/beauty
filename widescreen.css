@@ -63,6 +63,10 @@ body {
     background-color: #d2b6a0;
 }
 
+.book:visited {
+    color: #ebebeb !important;
+}
+
 a {
     color: #856a4f;
     text-decoration: none; !important
@@ -76,8 +80,8 @@ button:hover {
     background-color: #d2b6a0;
 }
 
-.book:visited {
-    color: #d2b6a0; !important
+a:visited {
+    color: #d2b6a0;
 }
 
 .social {

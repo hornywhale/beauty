@@ -57,8 +57,12 @@ a:hover {
     color: #d2b6a0;
 }
 
+a:visited {
+    color: #d2b6a0;
+}
+
 .book:visited {
-    color: #d2b6a0; !important
+    color: #ebebeb !important;
 }
 
 .social {
